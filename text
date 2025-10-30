@@ -1,0 +1,20 @@
+import psutil
+import time
+
+def collect_network_duration(duration):
+    startTime = time.time()
+    while time.time() - startTime < duration:
+        networkStats = psutil.net_io_counters()
+        bytesSent = networkStats.bytes_sent
+        bytesRecv = networkStats.bytes_recv
+        print(f"Bytes sent: {bytesSent} bytes")
+        print(f"Bytes received: {bytesRecv} bytes")
+        print("\n")
+        time.sleep(1)
+
+# Enter the required duration in seconds
+collectionDuration = 60  # Collect data for 60 seconds
+
+# Calling collect_network_duration() function with duration as a parameter
+collect_network_duration(collectionDuration)
+
