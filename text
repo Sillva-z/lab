@@ -18,3 +18,26 @@ collectionDuration = 60  # Collect data for 60 seconds
 # Calling collect_network_duration() function with duration as a parameter
 collect_network_duration(collectionDuration)
 
+
+================
+
+
+Message IN ("*.DownloadString(*",
+            "*.DownloadFile(*",
+            "*Invoke-WebRequest *",
+            "*iwr *")
+Message IN ("*;iex $*", 
+            "*| IEX*", 
+            "*|IEX *", 
+            "*I`E`X*", 
+            "*I`EX*", 
+            "*IE`X*", 
+            "*iex *", 
+            "*IEX (*", 
+            "*IEX(*", 
+            "*Invoke-Expression*")
+
+
+
+
+
