@@ -1,12 +1,15 @@
 import os
-def read_bashhistory():
-    historyFile = os.path.join(os.environ['HOME'], '.bash_history')
-    if os.path.exists(historyFile):
-        with open(historyFile, 'r') as file:
-            history = file.readlines()
-            print(f"Command history for user {os.environ['USER']}:")
-            for command in history:
-                print (command.strip())
-    else:
-        print("Bash history file does not exists.")
-read_bashHistory()
+
+def get_basicMetadata(filePath):
+    metadata = {}
+    metadata['size'] = os.path.getsize(filePath)
+    metadata['creation_time'] = os.path.getctime(filePath)
+    metadata['modification_time'] = os.path.getmtime(filePath)
+    metadata['access_time'] = os.path.getatime(filePath)
+    return metadata
+
+filePath = '/path/to/file'
+metadata = get_basicMetadata(filePath)
+
+for key, value in metadata.items():
+    print(f"{key}: {value}")
