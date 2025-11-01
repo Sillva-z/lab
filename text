@@ -1,1 +1,1 @@
-root%27%20%20union%20select
+source="Command Injection.log" host="Server2022" sourcetype="Command Injection.log (Apache Logs)"
