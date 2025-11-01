@@ -1,1 +1,1 @@
-source="Command Injection.log" host="Server2022" sourcetype="Command Injection.log (Apache Logs)"
+%3C!Doctype sourcetype="XXE Attack.log (Apache Logs)"
