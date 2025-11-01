@@ -1,1 +1,1 @@
-"10.10.1.11", "10.10.1.8" Destination= "10.10.1.8" extracted_Source= "10.10.1.11" Info=Response: 530 User cannot log in."
+("10.10.1.11" OR "10.10.1.8") Destination="10.10.1.8" extracted_Source="10.10.1.11" "530 User cannot log in"
