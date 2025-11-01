@@ -1,14 +1,14 @@
 import re
 
 # Defining the function to parse a log file
-def detect_commandInjection(log_filePath):
-    injectionPattern = re.compile(r'(\;|\&|\|\||\$\(|\`)', re.IGNORECASE)
-    # Parse the log file to identify command injection attempts
+def detect_path_traversal(log_filePath):
+    traversalPattern = re.compile(r'(\.\./|\.\.\\|%2e%2e%2f|%2e%2e\\)', re.IGNORECASE)
+    # Parse the log file to identify path traversal attempts
     with open(log_filePath, 'r') as file:
         for line in file:
-            if injectionPattern.search(line):
+            if traversalPattern.search(line):
                 # Replace with the required processing logic
-                print(f"Potential Command Injection attempt: {line}")
+                print(f"Potential Path Traversal attempt: {line}")
 
-log_filePath = 'path_to_webserver_log'
-detect_commandInjection(log_filePath)
+log_filePath = '/home/jason/Directory Traversal'
+detect_path_traversal(log_filePath)
