@@ -1,10 +1,1 @@
-# To capture live network packets
-import pyshark
-capture = pyshark.LiveCapture(interface='eth0')
-capture.sniff(timeout=50)
-# To analyze the packets by printing the details of each packet
-for packet in capture:
-    try:
-        print(f"packet: {packet}")
-    except attributeError:
-        pass
+root%27%20%20union%20select
