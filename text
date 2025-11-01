@@ -1,14 +1,14 @@
 import re
 
 # Defining the function to parse a log file
-def detect_path_traversal(log_filePath):
-    traversalPattern = re.compile(r'(\.\./|\.\.\\|%2e%2e%2f|%2e%2e\\)', re.IGNORECASE)
-    # Parse the log file to identify path traversal attempts
+def search_xssAttempts(log_filePath):
+    xssPattern = re.compile(r'(<script|javascript:|%3cscript)', re.IGNORECASE)
+    # Parse the log file to identify XSS attempts
     with open(log_filePath, 'r') as file:
         for line in file:
-            if traversalPattern.search(line):
+            if xssPattern.search(line):
                 # Replace with the required processing logic
-                print(f"Potential Path Traversal attempt: {line}")
+                print(f"Possible XSS attempt found: {line}")
 
-log_filePath = '/home/jason/Directory Traversal'
-detect_path_traversal(log_filePath)
+log_filePath = '/home/jason/XSS'
+search_xssAttempts(log_filePath)
