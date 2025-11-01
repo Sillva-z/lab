@@ -1,14 +1,1 @@
-import os
-
-def enumerateDirectory(directory_toEnumerate):
-    for entry in os.listdir(directory_toEnumerate):
-        path = os.path.join(directory_toEnumerate, entry)
-        if os.path.isdir(path):
-            print(f"Directory: {path}")
-            # Recursive call to enumerate subdirectories
-            enumerateDirectory(path)
-        else:
-            print(f"File: {path}")
-
-directory_toEnumerate = "/path/to/directory"
-enumerateDirectory(directory_toEnumerate)
+"10.10.1.11", "10.10.1.8" Destination= "10.10.1.8" extracted_Source= "10.10.1.11" Info=Response: 530 User cannot log in."
