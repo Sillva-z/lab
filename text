@@ -1,14 +1,1 @@
-import re
-
-# Defining the function to parse a log file
-def search_xssAttempts(log_filePath):
-    xssPattern = re.compile(r'(<script|javascript:|%3cscript)', re.IGNORECASE)
-    # Parse the log file to identify XSS attempts
-    with open(log_filePath, 'r') as file:
-        for line in file:
-            if xssPattern.search(line):
-                # Replace with the required processing logic
-                print(f"Possible XSS attempt found: {line}")
-
-log_filePath = '/home/jason/XSS'
-search_xssAttempts(log_filePath)
+wget https://github.com/Velocidex/velociraptor/releases/download/v0.72/velociraptor-v0.72.4-linux-amd64
