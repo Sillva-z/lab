@@ -1,1 +1,1 @@
-sudo dpkg -i velociraptor_server_0.72.4_amd64.deb
+wget https://github.com/Velocidex/velociraptor/releases/download/v0.72/velociraptor-v0.72.4-windows-amd64.exe
