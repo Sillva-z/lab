@@ -1,1 +1,1 @@
- /opt/velociraptor/server.config.yaml
+sudo gedit /opt/velociraptor/server.config.yaml
