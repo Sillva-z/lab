@@ -1,1 +1,1 @@
-sudo gedit /opt/velociraptor/server.config.yaml
+sudo ./velociraptor-v0.72.4-linux-amd64 --config /opt/velociraptor/server.config.yaml debian server --binary velociraptor-v0.72.4-linux-amd64
