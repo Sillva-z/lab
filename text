@@ -1,1 +1,41 @@
-Passw0rd
+import email
+import os
+
+def extract_info_fromEML(eml_filePath):
+    # Read the EML file
+    with open(eml_filePath, 'r') as file:
+        rawEmail = file.read()
+
+    # Parse the EML file content
+    parsedEmail = email.message_from_string(rawEmail)
+
+    # Extracting key information
+    sender = parsedEmail['From']
+    recipient = parsedEmail['To']
+    subject = parsedEmail['Subject']
+    date = parsedEmail['Date']
+
+    print(f"Sender: {sender}\nRecipient: {recipient}\nSubject: {subject}\nDate: {date}")
+
+    # Extracting the body of the email
+    if parsedEmail.is_multipart():
+        for part in parsedEmail.walk():
+            ctype = part.get_content_type()
+            cdispo = str(part.get('Content-Disposition'))
+
+            # Skip any text/plain (txt) attachments
+            if ctype == 'text/plain' and 'attachment' not in cdispo:
+                print(part.get_payload())  # print plain text parts
+
+            else:
+                # Extract attachments only if the part has a file name
+                filename = part.get_filename()
+                if filename:
+                    with open(filename, 'wb') as attachment:
+                        attachment.write(part.get_payload(decode=True))
+
+    else:
+        # Not multipart
+        print(parsedEmail.get_payload())
+
+extract_info_fromEML('path_to_eml_file.eml')
