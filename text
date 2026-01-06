@@ -1,227 +1,224 @@
-16 Standard 14393 x64 (name:DC01) (domain:corp.local) (signing:True) (SMBv1:True)
-SMB         172.16.1.5      445    DC01             [+] corp.local\ned.flanders_adm:Lefthandedyeah! 
-SMB         172.16.1.5      445    DC01             [+] Enumerated domain user(s)
-SMB         172.16.1.5      445    DC01             corp.local\svc_opmanager                  badpwdcount: 0 desc: 
-SMB         172.16.1.5      445    DC01             corp.local\pgibbons                       badpwdcount: 0 desc: 
-SMB         172.16.1.5      445    DC01             corp.local\svc_devops                     badpwdcount: 0 desc: 
-SMB         172.16.1.5      445    DC01             corp.local\ned.flanders_adm               badpwdcount: 0 desc: 
-SMB         172.16.1.5      445    DC01             corp.local\ned_adm                        badpwdcount: 0 desc: 
-SMB         172.16.1.5      445    DC01             corp.local\wsadmin                        badpwdcount: 0 desc: 
-SMB         172.16.1.5      445    DC01             corp.local\svc_iis                        badpwdcount: 0 desc: 
-SMB         172.16.1.5      445    DC01             corp.local\svc_sccm                       badpwdcount: 0 desc: 
-SMB         172.16.1.5      445    DC01             corp.local\svc_commvaultdb                badpwdcount: 0 desc: 
-SMB         172.16.1.5      445    DC01             corp.local\svc_mssql                      badpwdcount: 0 desc: 
-SMB         172.16.1.5      445    DC01             corp.local\svc_splunk                     badpwdcount: 0 desc: 
-SMB         172.16.1.5      445    DC01             corp.local\svc_testldap                   badpwdcount: 0 desc: 
-SMB         172.16.1.5      445    DC01             corp.local\cyberops_svc                   badpwdcount: 3 desc: 
-SMB         172.16.1.5      445    DC01             corp.local\cyber_adm                      badpwdcount: 0 desc: 
-SMB         172.16.1.5      445    DC01             corp.local\Rwallace                       badpwdcount: 0 desc: 
-SMB         172.16.1.5      445    DC01             corp.local\DCrawford                      badpwdcount: 0 desc: 
-SMB         172.16.1.5      445    DC01             corp.local\RCross                         badpwdcount: 0 desc: 
-SMB         172.16.1.5      445    DC01             corp.local\CBoyle                         badpwdcount: 0 desc: 
-SMB         172.16.1.5      445    DC01             corp.local\ORamsay                        badpwdcount: 0 desc: 
-SMB         172.16.1.5      445    DC01             corp.local\MRucker                        badpwdcount: 0 desc: 
-SMB         172.16.1.5      445    DC01             corp.local\HNewman                        badpwdcount: 0 desc: 
-SMB         172.16.1.5      445    DC01             corp.local\CParker                        badpwdcount: 0 desc: 
-SMB         172.16.1.5      445    DC01             corp.local\ICoane                         badpwdcount: 0 desc: 
-SMB         172.16.1.5      445    DC01             corp.local\DSims                          badpwdcount: 0 desc: 
-SMB         172.16.1.5      445    DC01             corp.local\WNorth                         badpwdcount: 0 desc: 
-SMB         172.16.1.5      445    DC01             corp.local\AEaton                         badpwdcount: 0 desc: 
-SMB         172.16.1.5      445    DC01             corp.local\JAdams                         badpwdcount: 0 desc: 
-SMB         172.16.1.5      445    DC01             corp.local\FRowley                        badpwdcount: 0 desc: 
-SMB         172.16.1.5      445    DC01             corp.local\EDoherty                       badpwdcount: 0 desc: 
-SMB         172.16.1.5      445    DC01             corp.local\IChamberlain                   badpwdcount: 0 desc: 
-SMB         172.16.1.5      445    DC01             corp.local\JDobie                         badpwdcount: 0 desc: 
-SMB         172.16.1.5      445    DC01             corp.local\OMiah                          badpwdcount: 0 desc: 
-SMB         172.16.1.5      445    DC01             corp.local\ESullivan                      badpwdcount: 0 desc: 
-SMB         172.16.1.5      445    DC01             corp.local\CHein                          badpwdcount: 0 desc: 
-SMB         172.16.1.5      445    DC01             corp.local\SMain                          badpwdcount: 0 desc: 
-SMB         172.16.1.5      445    DC01             corp.local\CMacansh                       badpwdcount: 0 desc: 
-SMB         172.16.1.5      445    DC01             corp.local\EBarrett                       badpwdcount: 0 desc: 
-SMB         172.16.1.5      445    DC01             corp.local\HBailey                        badpwdcount: 0 desc: 
-SMB         172.16.1.5      445    DC01             corp.local\ABell                          badpwdcount: 0 desc: 
-SMB         172.16.1.5      445    DC01             corp.local\GCoates                        badpwdcount: 0 desc: 
-SMB         172.16.1.5      445    DC01             corp.local\JTrumble                       badpwdcount: 0 desc: 
-SMB         172.16.1.5      445    DC01             corp.local\CWaldrop                       badpwdcount: 0 desc: 
-SMB         172.16.1.5      445    DC01             corp.local\RFisken                        badpwdcount: 0 desc: 
-SMB         172.16.1.5      445    DC01             corp.local\RGregg                         badpwdcount: 0 desc: 
-SMB         172.16.1.5      445    DC01             corp.local\DSilva                         badpwdcount: 0 desc: 
-SMB         172.16.1.5      445    DC01             corp.local\BSpeckman                      badpwdcount: 0 desc: 
-SMB         172.16.1.5      445    DC01             corp.local\LBroger                        badpwdcount: 0 desc: 
-SMB         172.16.1.5      445    DC01             corp.local\CHernandez                     badpwdcount: 0 desc: 
-SMB         172.16.1.5      445    DC01             corp.local\MDaly                          badpwdcount: 0 desc: 
-SMB         172.16.1.5      445    DC01             corp.local\JDay                           badpwdcount: 0 desc: 
-SMB         172.16.1.5      445    DC01             corp.local\MOrmond                        badpwdcount: 0 desc: 
-SMB         172.16.1.5      445    DC01             corp.local\MReynolds                      badpwdcount: 0 desc: 
-SMB         172.16.1.5      445    DC01             corp.local\KWallace                       badpwdcount: 0 desc: 
-SMB         172.16.1.5      445    DC01             corp.local\JBarlow                        badpwdcount: 0 desc: 
-SMB         172.16.1.5      445    DC01             corp.local\ATrickett                      badpwdcount: 0 desc: 
-SMB         172.16.1.5      445    DC01             corp.local\DWarren                        badpwdcount: 0 desc: 
-SMB         172.16.1.5      445    DC01             corp.local\BJones                         badpwdcount: 0 desc: 
-SMB         172.16.1.5      445    DC01             corp.local\DRussell                       badpwdcount: 0 desc: 
-SMB         172.16.1.5      445    DC01             corp.local\CFinch                         badpwdcount: 0 desc: 
-SMB         172.16.1.5      445    DC01             corp.local\AGermany                       badpwdcount: 0 desc: 
-SMB         172.16.1.5      445    DC01             corp.local\KBentley                       badpwdcount: 0 desc: 
-SMB         172.16.1.5      445    DC01             corp.local\LLevey                         badpwdcount: 0 desc: 
-SMB         172.16.1.5      445    DC01             corp.local\MMoore                         badpwdcount: 0 desc: 
-SMB         172.16.1.5      445    DC01             corp.local\SArellano                      badpwdcount: 0 desc: 
-SMB         172.16.1.5      445    DC01             corp.local\MWhitehead                     badpwdcount: 0 desc: 
-SMB         172.16.1.5      445    DC01             corp.local\MConti                         badpwdcount: 0 desc: 
-SMB         172.16.1.5      445    DC01             corp.local\DCrawley                       badpwdcount: 0 desc: 
-SMB         172.16.1.5      445    DC01             corp.local\ACarr                          badpwdcount: 0 desc: 
-SMB         172.16.1.5      445    DC01             corp.local\LNewton                        badpwdcount: 0 desc: 
-SMB         172.16.1.5      445    DC01             corp.local\ATraeger                       badpwdcount: 0 desc: 
-SMB         172.16.1.5      445    DC01             corp.local\AHarmon                        badpwdcount: 0 desc: 
-SMB         172.16.1.5      445    DC01             corp.local\LToomey                        badpwdcount: 0 desc: 
-SMB         172.16.1.5      445    DC01             corp.local\LBracco                        badpwdcount: 0 desc: 
-SMB         172.16.1.5      445    DC01             corp.local\MCampion                       badpwdcount: 0 desc: 
-SMB         172.16.1.5      445    DC01             corp.local\NMyers                         badpwdcount: 0 desc: 
-SMB         172.16.1.5      445    DC01             corp.local\LGibbons                       badpwdcount: 0 desc: 
-SMB         172.16.1.5      445    DC01             corp.local\SMilliner                      badpwdcount: 0 desc: 
-SMB         172.16.1.5      445    DC01             corp.local\TLowry                         badpwdcount: 0 desc: 
-SMB         172.16.1.5      445    DC01             corp.local\RHussain                       badpwdcount: 0 desc: 
-SMB         172.16.1.5      445    DC01             corp.local\SBroger                        badpwdcount: 0 desc: 
-SMB         172.16.1.5      445    DC01             corp.local\EBrigden                       badpwdcount: 0 desc: 
-SMB         172.16.1.5      445    DC01             corp.local\JKing                          badpwdcount: 0 desc: 
-SMB         172.16.1.5      445    DC01             corp.local\JGoodwin                       badpwdcount: 0 desc: 
-SMB         172.16.1.5      445    DC01             corp.local\JJenkins                       badpwdcount: 0 desc: 
-SMB         172.16.1.5      445    DC01             corp.local\ADinah                         badpwdcount: 0 desc: 
-SMB         172.16.1.5      445    DC01             corp.local\RChapman                       badpwdcount: 0 desc: 
-SMB         172.16.1.5      445    DC01             corp.local\AShuman                        badpwdcount: 0 desc: 
-SMB         172.16.1.5      445    DC01             corp.local\EHaynes                        badpwdcount: 0 desc: 
-SMB         172.16.1.5      445    DC01             corp.local\SAckermann                     badpwdcount: 0 desc: 
-SMB         172.16.1.5      445    DC01             corp.local\LKnowles                       badpwdcount: 0 desc: 
-SMB         172.16.1.5      445    DC01             corp.local\MParsons                       badpwdcount: 0 desc: 
-SMB         172.16.1.5      445    DC01             corp.local\JStaton                        badpwdcount: 0 desc: 
-SMB         172.16.1.5      445    DC01             corp.local\LPatterson                     badpwdcount: 0 desc: 
-SMB         172.16.1.5      445    DC01             corp.local\ADeLaRue                       badpwdcount: 0 desc: 
-SMB         172.16.1.5      445    DC01             corp.local\TKirkpatrick                   badpwdcount: 0 desc: 
-SMB         172.16.1.5      445    DC01             corp.local\LHarper                        badpwdcount: 0 desc: 
-SMB         172.16.1.5      445    DC01             corp.local\COrman                         badpwdcount: 0 desc: 
-SMB         172.16.1.5      445    DC01             corp.local\FMills                         badpwdcount: 0 desc: 
-SMB         172.16.1.5      445    DC01             corp.local\LWestgarth                     badpwdcount: 0 desc: 
-SMB         172.16.1.5      445    DC01             corp.local\WWinston                       badpwdcount: 0 desc: 
-SMB         172.16.1.5      445    DC01             corp.local\JWade                          badpwdcount: 0 desc: 
-SMB         172.16.1.5      445    DC01             corp.local\JBennett                       badpwdcount: 0 desc: 
-SMB         172.16.1.5      445    DC01             corp.local\LMoreland                      badpwdcount: 0 desc: 
-SMB         172.16.1.5      445    DC01             corp.local\SHolden                        badpwdcount: 0 desc: 
-SMB         172.16.1.5      445    DC01             corp.local\ECunningham                    badpwdcount: 0 desc: 
-SMB         172.16.1.5      445    DC01             corp.local\EBailey                        badpwdcount: 0 desc: 
-SMB         172.16.1.5      445    DC01             corp.local\LSimon                         badpwdcount: 0 desc: 
-SMB         172.16.1.5      445    DC01             corp.local\AJones                         badpwdcount: 0 desc: 
-SMB         172.16.1.5      445    DC01             corp.local\MWalker                        badpwdcount: 0 desc: 
-SMB         172.16.1.5      445    DC01             corp.local\ABailey                        badpwdcount: 0 desc: 
-SMB         172.16.1.5      445    DC01             corp.local\GMitchell                      badpwdcount: 0 desc: 
-SMB         172.16.1.5      445    DC01             corp.local\JSwift                         badpwdcount: 0 desc: 
-SMB         172.16.1.5      445    DC01             corp.local\IBarry                         badpwdcount: 0 desc: 
-SMB         172.16.1.5      445    DC01             corp.local\DPatterson                     badpwdcount: 0 desc: 
-SMB         172.16.1.5      445    DC01             corp.local\MPackard                       badpwdcount: 0 desc: 
-SMB         172.16.1.5      445    DC01             corp.local\LRussell                       badpwdcount: 0 desc: 
-SMB         172.16.1.5      445    DC01             corp.local\MHolmes                        badpwdcount: 0 desc: 
-SMB         172.16.1.5      445    DC01             corp.local\KMartin                        badpwdcount: 0 desc: 
-SMB         172.16.1.5      445    DC01             corp.local\AKohler                        badpwdcount: 0 desc: 
-SMB         172.16.1.5      445    DC01             corp.local\KPowell                        badpwdcount: 0 desc: 
-SMB         172.16.1.5      445    DC01             corp.local\FSaville-Kent                  badpwdcount: 0 desc: 
-SMB         172.16.1.5      445    DC01             corp.local\APike                          badpwdcount: 0 desc: 
-SMB         172.16.1.5      445    DC01             corp.local\BSampson                       badpwdcount: 0 desc: 
-SMB         172.16.1.5      445    DC01             corp.local\MCartwright                    badpwdcount: 0 desc: 
-SMB         172.16.1.5      445    DC01             corp.local\LMarshall                      badpwdcount: 0 desc: 
-SMB         172.16.1.5      445    DC01             corp.local\EGill                          badpwdcount: 0 desc: 
-SMB         172.16.1.5      445    DC01             corp.local\KPearce                        badpwdcount: 0 desc: 
-SMB         172.16.1.5      445    DC01             corp.local\MBrady                         badpwdcount: 0 desc: 
-SMB         172.16.1.5      445    DC01             corp.local\HBenevides                     badpwdcount: 0 desc: 
-SMB         172.16.1.5      445    DC01             corp.local\KReed                          badpwdcount: 0 desc: 
-SMB         172.16.1.5      445    DC01             corp.local\LKoerstz                       badpwdcount: 0 desc: 
-SMB         172.16.1.5      445    DC01             corp.local\DThompson                      badpwdcount: 0 desc: 
-SMB         172.16.1.5      445    DC01             corp.local\IJohn                          badpwdcount: 0 desc: 
-SMB         172.16.1.5      445    DC01             corp.local\KMellor                        badpwdcount: 0 desc: 
-SMB         172.16.1.5      445    DC01             corp.local\FMiddleton                     badpwdcount: 0 desc: 
-SMB         172.16.1.5      445    DC01             corp.local\CCumming                       badpwdcount: 0 desc: 
-SMB         172.16.1.5      445    DC01             corp.local\SToRot                         badpwdcount: 0 desc: 
-SMB         172.16.1.5      445    DC01             corp.local\RSelleck                       badpwdcount: 0 desc: 
-SMB         172.16.1.5      445    DC01             corp.local\AHamilton                      badpwdcount: 0 desc: 
-SMB         172.16.1.5      445    DC01             corp.local\MKnatchbull                    badpwdcount: 0 desc: 
-SMB         172.16.1.5      445    DC01             corp.local\WNeal                          badpwdcount: 0 desc: 
-SMB         172.16.1.5      445    DC01             corp.local\AGould                         badpwdcount: 0 desc: 
-SMB         172.16.1.5      445    DC01             corp.local\EWarren                        badpwdcount: 0 desc: 
-SMB         172.16.1.5      445    DC01             corp.local\EFry                           badpwdcount: 0 desc: 
-SMB         172.16.1.5      445    DC01             corp.local\CHammon                        badpwdcount: 0 desc: 
-SMB         172.16.1.5      445    DC01             corp.local\LSingh                         badpwdcount: 0 desc: 
-SMB         172.16.1.5      445    DC01             corp.local\JLaw                           badpwdcount: 0 desc: 
-SMB         172.16.1.5      445    DC01             corp.local\RScott                         badpwdcount: 0 desc: 
-SMB         172.16.1.5      445    DC01             corp.local\FSavage                        badpwdcount: 0 desc: 
-SMB         172.16.1.5      445    DC01             corp.local\ESmart                         badpwdcount: 0 desc: 
-SMB         172.16.1.5      445    DC01             corp.local\SLin                           badpwdcount: 0 desc: 
-SMB         172.16.1.5      445    DC01             corp.local\VBuffington                    badpwdcount: 0 desc: 
-SMB         172.16.1.5      445    DC01             corp.local\MMcCarthy                      badpwdcount: 0 desc: 
-SMB         172.16.1.5      445    DC01             corp.local\ABowen                         badpwdcount: 0 desc: 
-SMB         172.16.1.5      445    DC01             corp.local\JJones                         badpwdcount: 0 desc: 
-SMB         172.16.1.5      445    DC01             corp.local\JBeor                          badpwdcount: 0 desc: 
-SMB         172.16.1.5      445    DC01             corp.local\LHerbert                       badpwdcount: 0 desc: 
-SMB         172.16.1.5      445    DC01             corp.local\WLawson                        badpwdcount: 0 desc: 
-SMB         172.16.1.5      445    DC01             corp.local\MLawson                        badpwdcount: 0 desc: 
-SMB         172.16.1.5      445    DC01             corp.local\MCarrodus                      badpwdcount: 0 desc: 
-SMB         172.16.1.5      445    DC01             corp.local\COgden                         badpwdcount: 0 desc: 
-SMB         172.16.1.5      445    DC01             corp.local\PCarter                        badpwdcount: 0 desc: 
-SMB         172.16.1.5      445    DC01             corp.local\KPollard                       badpwdcount: 0 desc: 
-SMB         172.16.1.5      445    DC01             corp.local\ROh                            badpwdcount: 0 desc: 
-SMB         172.16.1.5      445    DC01             corp.local\BHarricks                      badpwdcount: 0 desc: 
-SMB         172.16.1.5      445    DC01             corp.local\GLamb                          badpwdcount: 0 desc: 
-SMB         172.16.1.5      445    DC01             corp.local\TRowley                        badpwdcount: 0 desc: 
-SMB         172.16.1.5      445    DC01             corp.local\HHoward                        badpwdcount: 0 desc: 
-SMB         172.16.1.5      445    DC01             corp.local\RKeighley                      badpwdcount: 0 desc: 
-SMB         172.16.1.5      445    DC01             corp.local\JByrne                         badpwdcount: 0 desc: 
-SMB         172.16.1.5      445    DC01             corp.local\GCaley                         badpwdcount: 0 desc: 
-SMB         172.16.1.5      445    DC01             corp.local\BMarshall                      badpwdcount: 0 desc: 
-SMB         172.16.1.5      445    DC01             corp.local\ABaxter                        badpwdcount: 0 desc: 
-SMB         172.16.1.5      445    DC01             corp.local\CPearson                       badpwdcount: 0 desc: 
-SMB         172.16.1.5      445    DC01             corp.local\HBooth                         badpwdcount: 0 desc: 
-SMB         172.16.1.5      445    DC01             corp.local\LOwens                         badpwdcount: 0 desc: 
-SMB         172.16.1.5      445    DC01             corp.local\KDaniels                       badpwdcount: 0 desc: 
-SMB         172.16.1.5      445    DC01             corp.local\LNorris                        badpwdcount: 0 desc: 
-SMB         172.16.1.5      445    DC01             corp.local\JHancock                       badpwdcount: 0 desc: 
-SMB         172.16.1.5      445    DC01             corp.local\MArnold                        badpwdcount: 0 desc: 
-SMB         172.16.1.5      445    DC01             corp.local\SConnell                       badpwdcount: 0 desc: 
-SMB         172.16.1.5      445    DC01             corp.local\MLeach                         badpwdcount: 0 desc: 
-SMB         172.16.1.5      445    DC01             corp.local\SCardiel                       badpwdcount: 0 desc: 
-SMB         172.16.1.5      445    DC01             corp.local\EPenman                        badpwdcount: 0 desc: 
-SMB         172.16.1.5      445    DC01             corp.local\KHolmes                        badpwdcount: 0 desc: 
-SMB         172.16.1.5      445    DC01             corp.local\NWong                          badpwdcount: 0 desc: 
-SMB         172.16.1.5      445    DC01             corp.local\LGraham                        badpwdcount: 0 desc: 
-SMB         172.16.1.5      445    DC01             corp.local\SHancock                       badpwdcount: 0 desc: 
-SMB         172.16.1.5      445    DC01             corp.local\ABuchanan                      badpwdcount: 0 desc: 
-SMB         172.16.1.5      445    DC01             corp.local\GKelly                         badpwdcount: 0 desc: 
-SMB         172.16.1.5      445    DC01             corp.local\AKidd                          badpwdcount: 0 desc: 
-SMB         172.16.1.5      445    DC01             corp.local\MWhiddon                       badpwdcount: 0 desc: 
-SMB         172.16.1.5      445    DC01             corp.local\AJackson                       badpwdcount: 0 desc: 
-SMB         172.16.1.5      445    DC01             corp.local\EMoulds                        badpwdcount: 0 desc: 
-SMB         172.16.1.5      445    DC01             corp.local\DDavis                         badpwdcount: 0 desc: 
-SMB         172.16.1.5      445    DC01             corp.local\SBradshaw                      badpwdcount: 0 desc: 
-SMB         172.16.1.5      445    DC01             corp.local\ZWootten                       badpwdcount: 0 desc: 
-SMB         172.16.1.5      445    DC01             corp.local\BMoore                         badpwdcount: 0 desc: 
-SMB         172.16.1.5      445    DC01             corp.local\SYoung                         badpwdcount: 0 desc: 
-SMB         172.16.1.5      445    DC01             corp.local\LPotter                        badpwdcount: 0 desc: 
-SMB         172.16.1.5      445    DC01             corp.local\RFord                          badpwdcount: 0 desc: 
-SMB         172.16.1.5      445    DC01             corp.local\FFigueroa                      badpwdcount: 0 desc: 
-SMB         172.16.1.5      445    DC01             corp.local\LMacghey                       badpwdcount: 0 desc: 
-SMB         172.16.1.5      445    DC01             corp.local\KSteele                        badpwdcount: 0 desc: 
-SMB         172.16.1.5      445    DC01             corp.local\OCollier                       badpwdcount: 0 desc: 
-SMB         172.16.1.5      445    DC01             corp.local\MTorres                        badpwdcount: 0 desc: 
-SMB         172.16.1.5      445    DC01             corp.local\EReynolds                      badpwdcount: 0 desc: 
-SMB         172.16.1.5      445    DC01             corp.local\LGresham                       badpwdcount: 0 desc: 
-SMB         172.16.1.5      445    DC01             corp.local\LBellantoni                    badpwdcount: 0 desc: 
-SMB         172.16.1.5      445    DC01             corp.local\JHann                          badpwdcount: 0 desc: 
-SMB         172.16.1.5      445    DC01             corp.local\AMountgarrett                  badpwdcount: 0 desc: 
-SMB         172.16.1.5      445    DC01             corp.local\GStephenson                    badpwdcount: 0 desc: 
-SMB         172.16.1.5      445    DC01             corp.local\justalocaladmin                badpwdcount: 0 desc: 
-SMB         172.16.1.5      445    DC01             corp.local\iamtheadministrator            badpwdcount: 23 desc: 
-SMB         172.16.1.5      445    DC01             corp.local\vincent.delpy                  badpwdcount: 0 desc: 
-SMB         172.16.1.5      445    DC01             corp.local\lazy_admin                     badpwdcount: 0 desc: 
-SMB         172.16.1.5      445    DC01             corp.local\salvador                       badpwdcount: 0 desc: 
-SMB         172.16.1.5      445    DC01             corp.local\bill                           badpwdcount: 0 desc: 
-SMB         172.16.1.5      445    DC01             corp.local\joe                            badpwdcount: 0 desc: 
-SMB         172.16.1.5      445    DC01             corp.local\bob                            badpwdcount: 0 desc: 
-SMB         172.16.1.5      445    DC01             corp.local\krbtgt                         badpwdcount: 0 desc: Key Distribution Center Service Account
-SMB         172.16.1.5      445    DC01             corp.local\DefaultAccount                 badpwdcount: 0 desc: A user account managed by the system.
-SMB         172.16.1.5      445    DC01             corp.local\Guest                          badpwdcount: 0 desc: Built-in account for guest access to the computer/domain
-SMB         172.16.1.5      445    DC01             corp.local\Administrator                  badpwdcount: 1 desc: Built-in account for administering the computer/domain
+ned.flanders_adm
+svc_opmanager
+pgibbons
+svc_devops
+ned_adm
+wsadmin
+svc_iis
+svc_sccm
+svc_commvaultdb
+svc_mssql
+svc_splunk
+svc_testldap
+cyberops_svc
+cyber_adm
+Rwallace
+DCrawford
+RCross
+CBoyle
+ORamsay
+MRucker
+HNewman
+CParker
+ICoane
+DSims
+WNorth
+AEaton
+JAdams
+FRowley
+EDoherty
+IChamberlain
+JDobie
+OMiah
+ESullivan
+CHein
+SMain
+CMacansh
+EBarrett
+HBailey
+ABell
+GCoates
+JTrumble
+CWaldrop
+RFisken
+RGregg
+DSilva
+BSpeckman
+LBroger
+CHernandez
+MDaly
+JDay
+MOrmond
+MReynolds
+KWallace
+JBarlow
+ATrickett
+DWarren
+BJones
+DRussell
+CFinch
+AGermany
+KBentley
+LLevey
+MMoore
+SArellano
+MWhitehead
+MConti
+DCrawley
+ACarr
+LNewton
+ATraeger
+AHarmon
+LToomey
+LBracco
+MCampion
+NMyers
+LGibbons
+SMilliner
+TLowry
+RHussain
+SBroger
+EBrigden
+JKing
+JGoodwin
+JJenkins
+ADinah
+RChapman
+AShuman
+EHaynes
+SAckermann
+LKnowles
+MParsons
+JStaton
+LPatterson
+ADeLaRue
+TKirkpatrick
+LHarper
+COrman
+FMills
+LWestgarth
+WWinston
+JWade
+JBennett
+LMoreland
+SHolden
+ECunningham
+EBailey
+LSimon
+AJones
+MWalker
+ABailey
+GMitchell
+JSwift
+IBarry
+DPatterson
+MPackard
+LRussell
+MHolmes
+KMartin
+AKohler
+KPowell
+FSaville-Kent
+APike
+BSampson
+MCartwright
+LMarshall
+EGill
+KPearce
+MBrady
+HBenevides
+KReed
+LKoerstz
+DThompson
+IJohn
+KMellor
+FMiddleton
+CCumming
+SToRot
+RSelleck
+AHamilton
+MKnatchbull
+WNeal
+AGould
+EWarren
+EFry
+CHammon
+LSingh
+JLaw
+RScott
+FSavage
+ESmart
+SLin
+VBuffington
+MMcCarthy
+ABowen
+JJones
+JBeor
+LHerbert
+WLawson
+MLawson
+MCarrodus
+COgden
+PCarter
+KPollard
+ROh
+BHarricks
+GLamb
+TRowley
+HHoward
+RKeighley
+JByrne
+GCaley
+BMarshall
+ABaxter
+CPearson
+HBooth
+LOwens
+KDaniels
+LNorris
+JHancock
+MArnold
+SConnell
+MLeach
+SCardiel
+EPenman
+KHolmes
+NWong
+LGraham
+SHancock
+ABuchanan
+GKelly
+AKidd
+MWhiddon
+AJackson
+EMoulds
+DDavis
+SBradshaw
+ZWootten
+BMoore
+SYoung
+LPotter
+RFord
+FFigueroa
+LMacghey
+KSteele
+OCollier
+MTorres
+EReynolds
+LGresham
+LBellantoni
+JHann
+AMountgarrett
+GStephenson
+justalocaladmin
+iamtheadministrator
+vincent.delpy
+lazy_admin
+salvador
+bill
+joe
+bob
+krbtgt
+DefaultAccount
+Guest
+Administrator
