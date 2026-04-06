@@ -7,3 +7,5 @@ $krb5tgs$23$*svc_splunk$CORP.LOCAL$corp.local/svc_splunk*$8d06c09fb748ab8d9eb103
 Uninstall-WindowsFeature -Name UpdateServices, UpdateServices-WidDB, Windows-Internal-Database -Restart
 
 https://github.com/py7hagoras/SharpTools/blob/master/SharpDPAPI.exe
+
+& "C:\Program Files\Update Services\Tools\wsusutil.exe" postinstall
